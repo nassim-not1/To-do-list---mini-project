@@ -1,0 +1,112 @@
+body {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.to-do-list {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    color: rgb(96, 115, 133);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+input {
+    font-size: 1.6rem;
+    padding: 10px;
+    border-radius: 7px;
+    color: hsla(0, 0%, 0%, 0.7);
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+button {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+
+}
+
+.add-button {
+    background-color: hsl(120, 91%, 50%);
+    margin-left: 10px;
+}
+
+.add-button:hover {
+    background-color: hsl(120, 91%, 47%);
+}
+
+.add-button:active {
+    background-color: hsl(120, 91%, 44%);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+
+}
+
+.delete-button {
+    background-color: hsl(0, 91%, 50%);
+    height: 47px;
+}
+
+.delete-button:hover {
+    background-color: hsl(0, 91%, 47%);
+}
+
+.delete-button:active {
+    background-color: hsl(0, 91%, 43%);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+.move-button {
+    background-color: hsl(200, 91%, 54%);
+}
+
+.move-button:hover {
+    background-color: hsl(200, 91%, 44%);
+}
+
+.move-button:active {
+    background-color: hsl(200, 91%, 34%);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.4);
+
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(272, 13%, 69%);
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    border: 3px solid hsl(273, 92%, 29%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-shadow: 2px 2px 2px rgba(83, 65, 65, 0.4);
+}
+
+.text {
+    flex: 1;
+}
+
+.delete-button,
+.move-button {
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
